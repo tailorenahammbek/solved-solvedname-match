@@ -1,0 +1,3 @@
+Download Link: https://assignmentchef.com/product/solved-solvedname-match
+<br>
+Create an array in VL with up to 100 elements, call it Username[100]3. Use a For loop with K from 1 to 100a. Input nameb. If (name != “LastName”) ThenSET Username[k] = namec.Else, exit loop.//Notice that K has the last input in the array.4. Do the following:Prompt user for a name to check, or enter Stop to end, both in quotes.Input nameIF (name != “Stop”) THENFor (L = 1; L &lt;= K; L++)IF (name == Username[L]) THENWrite ” Name ” + name + ” Is a match.”SET Flag = “TRUE”ELSESET Flag = “FALSE”END IFEND FORIF (Flag == “FALSE”) THENWrite “The name ” + name + “Did not match.”END IFEND IFWHILE name != “Stop”
